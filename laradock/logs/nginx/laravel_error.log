@@ -1,0 +1,182 @@
+2022/11/28 10:09:39 [error] 10#10: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(
+2022/11/28 10:09:40 [error] 10#10: *3 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(
+2022/11/28 10:09:41 [error] 10#10: *5 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(
+2022/11/28 10:09:42 [error] 10#10: *7 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(
+2022/11/28 10:09:43 [error] 10#10: *9 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(
+2022/11/28 10:12:43 [error] 10#10: *11 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:44 [error] 10#10: *13 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:44 [error] 10#10: *15 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:45 [error] 10#10: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:46 [error] 10#10: *19 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:46 [error] 10#10: *21 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:47 [error] 10#10: *23 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:47 [error] 10#10: *25 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
+2022/11/28 10:12:48 [error] 10#10: *27 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValueException), Array)
+#5 /var/www/ipstest/vendor/laravel/framework in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/var/www/ipstest/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/ipstest/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /var/www/ipstest/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error
